@@ -1,9 +1,10 @@
-﻿using ConsultorioDental.Models;
+﻿using ConsultorioDental.Modelos.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ConsultorioDental.Controllers
+namespace ConsultorioDental.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
